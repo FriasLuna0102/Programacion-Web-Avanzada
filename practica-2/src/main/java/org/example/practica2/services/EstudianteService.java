@@ -20,8 +20,8 @@ public class EstudianteService {
         estudianteRepository.save(estudiante);
     }
 
-    public Estudiante update(Estudiante estudiante) {
-        return estudianteRepository.save(estudiante);
+    public void update(Estudiante estudiante) {
+        estudianteRepository.save(estudiante);
     }
 
     public void delete(Long id) {
